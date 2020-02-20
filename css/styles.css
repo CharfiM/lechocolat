@@ -31,3 +31,21 @@ address{
    padding:50px 0px 0px 0px;
    z-index: 0;
   }
+  caption {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: bottom;
+  }
+  .table .thead-dark th{
+    color: whitesmoke;
+    background-color:pink
+}
+tr:hover {background-color:#dbb08db0!important}
+.table-hover tbody tr:hover {
+    background-color: red(0, 0, 0, 0.075);
+  }
+  .bg-secondary {
+    background-color: burlywood !important;
+  }
